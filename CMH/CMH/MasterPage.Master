@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="CMH.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Mughal Trader</title>
+    <link href="css/gridsystem.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <%-- ----------- header -------------%>
+    <div class="headcontainer">
+        <div class="header">
+            <h1>
+                Mughal Traders
+            </h1>
+            <h6>
+                CMH Glivec Patient Records
+            </h6>
+        </div>
+    </div>
+    <%-- ----------- Content -------------%>
+    <div class="maincontentcontainer">
+        <div class="maincontent">
+            <asp:ContentPlaceHolder ID="main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <%-- ----------- footer -------------%>
+    <div class="footercontainer">
+        <div class="footer">
+            <!-- Grid 1/4 -->
+            <div class="grid grid-inner">
+                <div class="col-1-4">
+                    <h5>
+                        About
+                    </h5>
+                    <ul>
+                        <li>Above is the details of Patients, Deliveries and Orders of Glivec in CMH Lahore </li>
+                        <li><a href="http://www.canecrafts.com">www.canecrafts.com </a></li>
+                    </ul>
+                </div>
+                <div class="col-1-4">
+                    <h5>
+                        Mughal Traders
+                    </h5>
+                    <p>
+                        Newage Plaza, Saddar,</p>
+                    <p>
+                        Rawalpindi, Pakistan</p>
+                </div>
+                <div class="col-1-4">
+                    <h5>
+                        Who made this ?
+                    ?
+                    </h5>
+                    <p>
+                    Design & Developed by<br />
+                    <a href="http://www.facebook.com/mrhamzatariq">http://www.facebook.com/mrhamzatariq</a>
+                    </p>
+
+                </div>
+                <div class="col-1-4">
+                    <h5>
+ Download this template
+                    </h5>
+                    <p>
+                        051-5125887.
+                        <br />
+                    </p>
+                    <h6>
+                        All Rights reserved. </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

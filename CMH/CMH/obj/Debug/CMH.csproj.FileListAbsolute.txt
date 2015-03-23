@@ -1,0 +1,5 @@
+c:\users\skn-isf\documents\visual studio 2012\Projects\CMH\CMH\bin\CMH.dll
+c:\users\skn-isf\documents\visual studio 2012\Projects\CMH\CMH\bin\CMH.pdb
+c:\users\skn-isf\documents\visual studio 2012\Projects\CMH\CMH\obj\Debug\CMH.csprojResolveAssemblyReference.cache
+c:\users\skn-isf\documents\visual studio 2012\Projects\CMH\CMH\obj\Debug\CMH.dll
+c:\users\skn-isf\documents\visual studio 2012\Projects\CMH\CMH\obj\Debug\CMH.pdb
